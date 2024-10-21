@@ -1,0 +1,198 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header{
+  background-color: #3160e0;
+  height: 80px;
+}
+
+header nav ul{
+  display: flex;
+  list-style: none;
+}
+
+header nav ul a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #3160e0;
+}
+
+header nav li{
+  align-items: center;
+  padding: 5px;
+  margin: 0 15px;
+}
+
+
+header .flex-center{
+  height: 80px;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 900px; 
+}
+
+.container .top{
+  margin-top: 200px;
+}
+
+.container .green{
+  margin-top: 200px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+main .container{
+  display: flex;
+  justify-content: center;
+}
+
+main .rcol{
+  background-color: aqua;
+  width: 40%;
+}
+
+main .lcol{
+  background-color: chartreuse;
+  width: 60%;
+}
+
+main .dcol{
+  background-color: rgb(223, 130, 225);
+  width: 100%;
+}
+
+section.bg-blue{
+  background-image: url(../img/jumbo.png);
+  padding-bottom: 500px;
+  padding-top: 500px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  
+}
+
+section.bg-green{
+  background-color: white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+section.bg-grey{
+  background-color: grey;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.colflex{
+  display: flex;
+  margin: 0 auto;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row{
+  height: 0 auto;
+}
+
+.logo{
+  display: flex;
+}
+
+.a-flex{
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.btn{
+  text-decoration: none;
+  border: 8px solid white;
+  background-color: white;
+  border-radius: 15px;        
+  width: 50px;              
+  text-align: center;      
+  padding: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+
+.debug{
+  background-color: #3160e0
+  border: 1px solid black;
+}
+
+
+.navbar .row{
+  border: 1px solid black;
+  justify-content: space-between;
+}
+
+.column{
+  padding: 20px;
+}
+
+footer{
+  background-color: rgba(39, 36, 36, 0.975);
+}
+
+section.bg-black{
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+footer .acol{
+  width: 40%;
+  background-color: rgb(91, 66, 193);
+}
+
+footer .qcol{
+  width: 15%;
+  background-color: aliceblue;
+}
+
+footer .row{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.container-footer{
+  border: 1px solid black;
+  background-color: rgb(40, 39, 39);
+}
+
+.row-footer{
+  display: flex;
+  background-color: rgb(41, 170, 199);
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.col-logo{
+  border: 1px solid black;
+}
+
+.col-button{
+  border: 1px solid black;
+}
