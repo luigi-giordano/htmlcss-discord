@@ -136,6 +136,7 @@ main .bg-green p{
 }
 
 .button-header{
+  margin: 20px;
   display: inline-block;
   justify-content: center;
   display: flex;
@@ -157,6 +158,13 @@ a:link{
   text-decoration: none;
 }
 
+#white::before{
+  content: "\2193";
+}
+
+
+
+
 #white{
   background-color: white;
   color: black;
@@ -168,14 +176,7 @@ a:link{
 
 
 
-strong{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-top: 100px;
-  font-size:55px;
-  color: white;
-}
+
 
 .stars{
   background-image: url("../img/stars.svg");
@@ -255,14 +256,24 @@ section.bg-black{
   max-width: 900px;
 }
 
+#ita{
+  width: 20px;
+
+}
+
+
+
 footer .acol{
+  font-size: large;
   width: 40%;
-  background-color: rgb(91, 66, 193);
+  color:blueviolet
 }
 
 footer .qcol{
+  font-size: smaller;
   width: 15%;
-  background-color: aliceblue;
+  color: blueviolet;
+  
 }
 
 footer .row{
@@ -272,22 +283,28 @@ footer .row{
 }
 
 .container-footer{
-  border: 1px solid black;
+  
   background-color: rgb(40, 39, 39);
 }
 
 .row-footer{
   display: flex;
-  background-color: rgb(41, 170, 199);
   justify-content: space-between;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .col-logo{
-  border: 1px solid black;
+  
 }
 
 .col-button{
-  border: 1px solid black;
+  border: 4px solid rgb(167, 137, 243);
+  border-radius: 15px;
+  background-color: rgb(167, 137, 243);
+  padding: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  
 }
