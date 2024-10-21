@@ -74,11 +74,10 @@ main .dcol{
 
 section.bg-blue{
   background-image: url(../img/jumbo.png);
-  padding-bottom: 500px;
-  padding-top: 500px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  height: 300px;
+  background-position:center;
+  
+  background-size: cover;
   
   
 }
