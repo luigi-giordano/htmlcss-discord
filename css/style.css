@@ -63,7 +63,7 @@ main .rcol{
 }
 
 main .lcol{
-  background-color: chartreuse;
+  
   width: 60%;
 }
 
@@ -74,7 +74,7 @@ main .dcol{
 
 section.bg-blue{
   background-image: url(../img/jumbo.png);
-  height: 1000px;
+  height: 600px;
   background-position:center; 
   background-size:cover;
   
@@ -83,8 +83,11 @@ section.bg-blue{
 
 section.bg-green{
   background-color: white;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  background-image: url(../img/item1.svg);
+  background-position: left;
+  background-size:contain;
+  height: 500px;
+  background-repeat: no-repeat;
 }
 
 section.bg-grey{
