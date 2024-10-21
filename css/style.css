@@ -88,6 +88,16 @@ section.bg-green{
   background-size:contain;
   height: 500px;
   background-repeat: no-repeat;
+  text-align: right;
+  
+  
+}
+h1{
+  display: flex;
+  flex-direction: column;
+ 
+
+  
 }
 
 section.bg-grey{
