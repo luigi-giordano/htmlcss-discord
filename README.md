@@ -1,0 +1,1 @@
+Riproduciamo il layout come da screenshot cercando di essere il più fedeli possibili. Aggiungiamo le immagini di background con relativi link e descrizioni varie.
