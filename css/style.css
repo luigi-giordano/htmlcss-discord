@@ -47,6 +47,7 @@ header .flex-center{
   margin-top: 200px;
 }
 
+
 .row{
   display: flex;
   justify-content: center;
@@ -58,17 +59,27 @@ main .container{
 }
 
 main .rcol{
-  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
   width: 40%;
 }
 
+
+
+
+
+
+
 main .lcol{
-  
-  width: 60%;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  width: 70%;
 }
 
 main .dcol{
-  background-color: rgb(223, 130, 225);
+  
   width: 100%;
 }
 
@@ -77,24 +88,50 @@ section.bg-blue{
   height: 600px;
   background-position:center; 
   background-size:cover;
-  
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 section.bg-green{
   background-color: white;
-  background-image: url(../img/item1.svg);
-  background-position: left;
-  background-size:contain;
+  display: flex;
+  justify-content: center;
   height: 500px;
-  background-repeat: no-repeat;
-  text-align: right;
   
   
 }
-.bg-green h1{
+main .bg-green h1{
   display: flex;
   flex-direction: column;
+  padding-top:150px;
+}
+
+main .bg-green p{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.bg-blue h1{
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.bg-blue p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  padding-left: 700px;
+  padding-right: 700px;
+
 }
 
 
@@ -109,10 +146,17 @@ strong{
   color: white;
 }
 
+.stars{
+  background-image: url("../img/stars.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 section.bg-grey{
   background-color: grey;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 .colflex{
