@@ -6,6 +6,9 @@
 body{
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+img{
+  max-width: 100%;
+}
 
 header{
   background-color: #3160e0;
@@ -207,6 +210,10 @@ section.bg-grey{
   padding-bottom: 5px;
 }
 
+.btn:hover{
+  opacity: .9;
+}
+
 .debug{
   background-color: #3160e0
   border: 1px solid black;
@@ -274,4 +281,8 @@ footer .row{
   padding-top: 5px;
   padding-bottom: 5px;
   color: white;
+}
+
+.col-button:hover{
+  opacity: .9;
 }
