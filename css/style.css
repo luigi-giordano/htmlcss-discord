@@ -175,7 +175,6 @@ a:link{
   background-image: url("../img/stars.svg");
   background-size: contain;
   background-repeat: no-repeat;
-
 }
 
 section.bg-grey{
@@ -230,8 +229,6 @@ section.bg-grey{
   border-radius: 20px;
   background-color: white;
   padding: 40px 40px 40px 40px;
-  
- 
 }
 
 .wave{
