@@ -156,8 +156,16 @@ a:link{
   color: black;
 }
 
+#white:hover{
+  opacity: .9;
+}
+
 #black{
   background-color: black;
+}
+
+#black:hover{
+  opacity: .9;
 }
 
 .stars{
