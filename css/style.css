@@ -175,6 +175,7 @@ a:link{
   background-image: url("../img/stars.svg");
   background-size: contain;
   background-repeat: no-repeat;
+
 }
 
 section.bg-grey{
@@ -224,6 +225,20 @@ section.bg-grey{
 .btn-big{
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: white;
+  padding: 40px 40px 40px 40px;
+  
+ 
+}
+
+.wave{
+  height: 100px;
+  background-image: url(../img/wave.svg);
+  opacity: .50;
+  background-size: cover;
 }
 
 .btn:hover{
