@@ -107,6 +107,8 @@ main .bg-green h1{
 main .bg-green p{
   display: flex;
   justify-content: center;
+  font-size: large;
+  padding: 40px 20px 0px 0px;
 }
 
 .bg-blue h1{
@@ -217,6 +219,11 @@ section.bg-grey{
   padding: 3px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.btn-big{
+  display: flex;
+  justify-content: center;
 }
 
 .btn:hover{
